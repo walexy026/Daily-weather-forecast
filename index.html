@@ -8,6 +8,12 @@
     <title>Weather</title>
   </head>
   <body>
+    <p id="demo"></p>
+
+<script>
+// var d = new Date();
+// document.getElementById("demo").innerHTML = d;
+</script>
     <div class="container">
       <form action="">
         <label for="search"></label>
@@ -17,44 +23,64 @@
           id="search"
           placeholder="search cities"
         />
+        <!-- <button><span class="material-icons-sharp">
+            search
+        </span></button> -->
+        <input type="submit" value="Search"  id="search-cities">
+        <!-- <button type="submit" Search</button> -->
       </form>
+      <h1 id="country">Country</h1>
       <h1>City</h1>
-      <p id="date">date</p>
+      <p id="date"></p>
       <img src="./SunCloud2.png" alt="SunCloud" />
       <div class="temperature">
         <div class="divTemp">
-          <p>MIN TEMP</p>
+          <p>Lat</p>
+          <p id="lat"></p>
         </div>
         <div class="divTemp">
-          <p>MAX TEMP</p>
-        </div>
-      </div>
-      <div class="temperature">
-        <div class="divTemp">
-          <p>MIN TEMP</p>
-        </div>
-        <div class="divTemp">
-          <p>MIN TEMP</p>
+          <p>Lon</p>
+          <p id="lon"></p>
         </div>
       </div>
       <div class="temperature">
         <div class="divTemp">
-          <p>MIN TEMP</p>
+          <p>Min Temp</p>
+          <img src="http://openweathermap.org/img/wn/10d.png" class="icon">
+          <p id="min-temp"></p>
         </div>
         <div class="divTemp">
-          <p>MIN TEMP</p>
+          <p>Max Temp</p>
+          <img src="http://openweathermap.org/img/wn/10d.png" class="icon">
+          <p id="max-temp"></p>
         </div>
       </div>
       <div class="temperature">
         <div class="divTemp">
-          <p>MIN TEMP</p>
+          <p>Sunrise</p>
+          <img src="http://openweathermap.org/img/wn/01d.png" class="icon">
+
+          <p id="avg-sun"></p>
+        </div>
+        <div class="divTemp">
+          <p>Sunset</p>
+          <img src="http://openweathermap.org/img/wn/02d.png" class="icon">
+          <p id="avgsun"></p>
+        </div>
+      </div>
+      <div class="temperature">
+        <div class="divTemp">
+          <p>Humidity</p>
+          <p id="humidity"></p>
         </div>
         <div>
           <div class="divTemp">
-            <p>MIN TEMP</p>
+            <p>Feel Like</p>
+            <p id="feel-like"></p>
           </div>
           <div class="divTemp">
-            <p>MIN TEMP</p>
+            <p>Pressure</p>
+            <p id="pressure"></p>
           </div>
         </div>
       </div>
