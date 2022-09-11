@@ -8,7 +8,7 @@
     <title>Weather</title>
   </head>
   <body>
-    <p id="demo"></p>
+    <!-- <p id="demo"></p> -->
 
 <script>
 // var d = new Date();
@@ -32,46 +32,55 @@
       <h1 id="country">Country</h1>
       <h1>City</h1>
       <p id="date"></p>
-      <img src="./SunCloud2.png" alt="SunCloud" />
+      <!-- <img src="./SunCloud2.png" alt="SunCloud" /> -->
+      <!-- http://openweathermap.org/img/wn/10d@2x.png -->
+      <div class="weather-img">
+        <!-- <img src=" http://openweathermap.org/img/wn/10d@4x.png" alt="SunCloud" class="icon" /> -->
+        <img src='' class="icons" />
+      </div>
+
       <div class="temperature">
         <div class="divTemp">
           <p>Lat</p>
           <p id="lat"></p>
         </div>
         <div class="divTemp">
-          <p>Lon</p>
-          <p id="lon"></p>
+          <p id="lon">Lon</p>
+          <p></p>
         </div>
       </div>
       <div class="temperature">
-        <div class="divTemp">
+         <div class="divTemp">
           <p>Min Temp</p>
-          <img src="http://openweathermap.org/img/wn/10d.png" class="icon">
+          <img src="http://openweathermap.org/img/wn/10n@2x.png" class="icon">
           <p id="min-temp"></p>
         </div>
         <div class="divTemp">
           <p>Max Temp</p>
-          <img src="http://openweathermap.org/img/wn/10d.png" class="icon">
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" class="icon">
+
           <p id="max-temp"></p>
-        </div>
+        </div> 
       </div>
       <div class="temperature">
         <div class="divTemp">
           <p>Sunrise</p>
-          <img src="http://openweathermap.org/img/wn/01d.png" class="icon">
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" class="icon">
+
 
           <p id="avg-sun"></p>
         </div>
         <div class="divTemp">
           <p>Sunset</p>
-          <img src="http://openweathermap.org/img/wn/02d.png" class="icon">
+          <img src="http://openweathermap.org/img/wn/10d@2x.png" class="icon">
+
           <p id="avgsun"></p>
         </div>
       </div>
       <div class="temperature">
         <div class="divTemp">
           <p>Humidity</p>
-          <p id="humidity"></p>
+          <!-- <p id="humidity"></p> -->
         </div>
         <div>
           <div class="divTemp">
@@ -80,7 +89,7 @@
           </div>
           <div class="divTemp">
             <p>Pressure</p>
-            <p id="pressure"></p>
+            <!-- <p id="pressure"></p> -->
           </div>
         </div>
       </div>
