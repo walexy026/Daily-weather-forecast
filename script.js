@@ -14,7 +14,7 @@ let humidity = document.getElementById('humidity')
 let feelsLike = document.getElementById('feel-like')
 let city = document.getElementById('city')
 let country = document.getElementById('country')
-let iconsrc = document.getElementById('icons')
+let icon = document.getElementById('icons')
 // console.log(icon + 0c)
 let divTemperature = document.getElementsByClassName('temperature')
 // searchBtn.addEventListener('click', ()=> {
@@ -56,7 +56,7 @@ let name = "kenneth"
       minTemp.textContent =data.main.temp_min 
       feelsLike.textContent =data.main.feels_like
       humidity.textContent =data.main.humidity
-      sunset.textContent =data.sys.sunset
+      // sunset.textContent =data.sys.sunset
       // sunrise.textContent =data.sys.sunrise
       temperature.textContent =data.main.temp
       icon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@4x.png` 
