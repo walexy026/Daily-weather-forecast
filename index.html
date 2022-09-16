@@ -30,13 +30,13 @@
         <!-- <button type="submit" Search</button> -->
       </form>
       <h1 id="country">Country</h1>
-      <h1>City</h1>
+      <h1 id="city">City</h1>
       <p id="date"></p>
       <!-- <img src="./SunCloud2.png" alt="SunCloud" /> -->
-      <!-- http://openweathermap.org/img/wn/10d@2x.png -->
+      <!-- http://openweathermap.org/img/wn/$10d@2x.png -->
       <div class="weather-img">
-        <!-- <img src=" http://openweathermap.org/img/wn/10d@4x.png" alt="SunCloud" class="icon" /> -->
-        <img src='' class="icons" />
+        <!-- <img src=" http://openweathermap.org/img/wn/04n@4x.png" alt="SunCloud" class="icon" /> -->
+        <img src='' id="icons" class="icons" />
       </div>
 
       <div class="temperature">
@@ -45,19 +45,21 @@
           <p id="lat"></p>
         </div>
         <div class="divTemp">
-          <p id="lon">Lon</p>
-          <p></p>
+          <p >Lon</p>
+          <p id="lon"></p>
+          
         </div>
       </div>
       <div class="temperature">
          <div class="divTemp">
           <p>Min Temp</p>
-          <img src="http://openweathermap.org/img/wn/10n@2x.png" class="icon">
+          <!-- `<img src="http://openweathermap.org/img/wn/${icon}@2x.png" class="icon">` -->
+          <!-- <img src="" class="icon"> -->
           <p id="min-temp"></p>
         </div>
         <div class="divTemp">
           <p>Max Temp</p>
-          <img src="http://openweathermap.org/img/wn/10d@2x.png" class="icon">
+          <!-- <img src=" " class="icon"> -->
 
           <p id="max-temp"></p>
         </div> 
@@ -65,31 +67,29 @@
       <div class="temperature">
         <div class="divTemp">
           <p>Sunrise</p>
-          <img src="http://openweathermap.org/img/wn/10d@2x.png" class="icon">
-
-
-          <p id="avg-sun"></p>
+          <!-- <img src="" class="icon"> -->
+          <p id="Sunrise"></p>
         </div>
         <div class="divTemp">
           <p>Sunset</p>
-          <img src="http://openweathermap.org/img/wn/10d@2x.png" class="icon">
-
-          <p id="avgsun"></p>
+          <!-- <img src="" id="icon" class="icon"> -->
+          <p id="Sunset"></p>
         </div>
       </div>
       <div class="temperature">
         <div class="divTemp">
           <p>Humidity</p>
-          <!-- <p id="humidity"></p> -->
+          <p id="humidity"></p>
         </div>
         <div>
           <div class="divTemp">
-            <p>Feel Like</p>
-            <p id="feel-like"></p>
+            <p>Temperature</p>
+            <p id="temp"></p> 
+            
           </div>
           <div class="divTemp">
-            <p>Pressure</p>
-            <!-- <p id="pressure"></p> -->
+            <p>Feel Like</p>
+            <p id="feel-like"></p>
           </div>
         </div>
       </div>
