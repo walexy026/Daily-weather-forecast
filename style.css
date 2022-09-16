@@ -39,13 +39,19 @@ form {
     border: none;
 }
 #search-cities{
-    border-radius: 1rem;
-    padding: 0.5rem;
+
+
+    /* border-radius: 1rem; */
+    /* padding: 0.5rem; */
     position: absolute;
-    right: 20%;
-    border: none;
-    background-color: #fff;
+    top: 32px;
+    right: 60px;
+    font-size: 23px;
+    cursor: pointer;
 }
+    /* border: none; */
+    /* background-color: #fff; */
+
 h1 {
   text-align: center;
   color: #fff;

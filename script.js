@@ -32,10 +32,10 @@ let getUserLocation = () => {
 };
 // Fetching data from OpenWeather
 let getWeatherForecast = (position) => {
+  
   let apiKeys = "3870f5be4e086fca02c03bfe046b80bd";
   let unit = "metrics";
   let baseURL = "https://api.openweathermap.org/data/2.5/weather";
-
   fetch(
     `${baseURL}?lat=${position.coords.latitude}&lon=${position.coords.longitude}&appid=${apiKeys}`
   )
